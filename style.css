@@ -1,0 +1,68 @@
+*,
+html,
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Lugrasimo", cursive;
+}
+
+:root{
+    --bg-primary: #d8c3a3;
+    --bg-secondary: rgb(133, 106, 78);
+    --txt-primary: rgb(244, 238, 219);
+    --txt-secondary: black;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-primary);
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    height: auto;
+    width: 100%;
+    color: white;
+}
+
+.card{
+    padding: 20px;
+    background-color: var(--bg-secondary);
+    color: var(--txt-secondary);
+    border: 1px solid white;
+    margin: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+.text-center{
+    text-align: center;
+}
+
+.title{
+    font-size: 2em;
+}
+
+.icons{
+    font-size: 40px;
+    margin-top: 4px;
+}
+
+.description{
+    margin-top: 4px;
+    font-size: .8em;
+}
+
+.btn{
+    margin-top: 16px;
+    padding: 6px;
+    cursor: pointer;
+    border: none;
+    width: 100%
+}
+
+.btn:hover{
+    background-color: var(--bg-primary);
+    transition: .3s ease-in-out;
+}
